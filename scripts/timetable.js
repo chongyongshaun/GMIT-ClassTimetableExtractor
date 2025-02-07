@@ -20,7 +20,7 @@ async function submitAttendance() {
         await page.getByRole('textbox', { name: 'text search' }).fill('software development');
         await page.getByRole('textbox', { name: 'text search' }).press('Enter');
 
-        await page.getByRole('checkbox', { name: 'GA_KSOAG_H08 - BSc in Computing in Software Development Yr 1' }).check();
+        await page.getByRole('checkbox', { name: 'GA_KSOAG_H08 - BSc in Computing in Software Development Yr 2' }).check();
         await page.getByRole('button', { name: 'List' }).click();
         console.log("selected the course");
 
